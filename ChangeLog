@@ -1,3 +1,8 @@
+2004-12-12  mallum  <mallum@openedhand.com>
+
+	* website/index.htm:
+	Add Openedhand Link
+
 2004-11-14  mallum  <mallum@handhelds.org>
 
 	* src/http.c: (http_server):
