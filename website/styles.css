@@ -1,0 +1,44 @@
+body {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 80%;
+  color: #333333;
+  margin: 2px;
+  padding: 2px;
+}
+
+h2 {
+ color: #33bb66;
+}
+
+h4 {
+ color: #666;
+}
+
+#container {
+  width: 60%;
+  min-width: 500px;
+  border: 2px solid #6699cc;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px
+}
+
+#header {
+  padding-left:15px;
+}
+
+#content {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#footer {
+
+}
+
+a:Link {color: #6699cc; text-decoration: none; } 
+a:Active {color: #6699cc; text-decoration: none; }
+a:Visited {color: #6699cc; text-decoration: none;}
+a:Hover {color: #ec1c26; text-decoration: dotted;}
