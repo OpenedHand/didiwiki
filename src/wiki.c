@@ -861,10 +861,10 @@ int page_name_is_good(char* page_name)
     if (!page_name)
         return FALSE;
 
-    if (!isalnum(page[0]))
+    if (!isalnum(page_name[0]))
         return FALSE;
 
-    if (strstr(page, ".."))
+    if (strstr(page_name, ".."))
         return FALSE;
 
     return TRUE;
